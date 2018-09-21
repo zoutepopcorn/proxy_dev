@@ -4,7 +4,7 @@ const express = require('express');
 const proxy = require('http-proxy-middleware');
 const app = express();
 const options = {
-    target: 'http://localhost:8080/',
+    target: `http://localhost:8080/`,
     changeOrigin: true
 }
 
